@@ -1,0 +1,27 @@
+body {
+    background-color: chocolate;
+}
+
+.container{
+   /* display: flex; */
+  /* gap: 10px; */
+  /*  row-gap: 10px; */
+  /*  height: 600px; */
+    /* flex-direction: column wrap; */
+   /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color:red;
+}
+
+
+.item-3 {
+  flex-basis: 100px;
+}
+
